@@ -141,6 +141,7 @@ git clone https://github.com/<Qoslaye/doctor-appointment-api.git
 cd doctor-appointment-api
 
 2️⃣ Install Dependencies
+
 npm install
 
 3️⃣ Configure Environment Variables
