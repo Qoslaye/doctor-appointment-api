@@ -116,7 +116,10 @@ PUT /api/appointments/:id
   "status": "approved"
 }
 DELETE /api/appointments/:id
+```
 
+⚡ How to Run the Project
+1️⃣ Clone the Repository
 
 
 
