@@ -115,6 +115,7 @@ PUT /api/appointments/:id
 {
   "status": "approved"
 }
+#### ✅ Delete Appointment (Doctor/Patient)
 DELETE /api/appointments/:id
 ```
 
