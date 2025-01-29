@@ -85,21 +85,30 @@ doctor-appointment-api/
   "role": "patient"
 }
 
+✅ User Login
 POST /api/auth/login
 {
   "email": "Hassan@gmail.com",
   "password": "password123"
 }
 
-GET /api/users
-GET /api/users/:id
-PUT /api/users/:id
+2️⃣ User Management APIs
 
+✅ Get All Users (Doctor)
+GET /api/users
+
+✅ Get Single User
+GET /api/users/:id
+
+✅ Update User
+Update User
+PUT /api/users/:id
 {
   "fullName": "Updated Name",
   "email": "updated.email@gmial.com"
 }
 
+✅ Delete User
 DELETE /api/users/:id
 
 3️⃣ Appointment APIs
