@@ -6,6 +6,7 @@ A RESTful API for managing doctor appointments, built using **Node.js, Express.j
 
 ## 📁 Project Structure (MVC Architecture)
 doctor-appointment-api/
+```
 │── config/             # Database configuration
 │── controllers/        # Business logic for Users & Appointments
 │── middleware/         # Authentication & Authorization middleware
@@ -15,4 +16,5 @@ doctor-appointment-api/
 │── package.json        # Dependencies and project metadata
 │── README.md           # Documentation
 │── server.js           # Entry point for the application
+```
 
