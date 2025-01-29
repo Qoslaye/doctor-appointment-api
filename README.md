@@ -118,8 +118,8 @@ PUT /api/appointments/:id
 DELETE /api/appointments/:id
 ```
 
-### **⚡ How to Run the Project **
-** 1️⃣ Clone the Repository **
+### ⚡ How to Run the Project 
+### 1️⃣ Clone the Repository 
 
 
 
