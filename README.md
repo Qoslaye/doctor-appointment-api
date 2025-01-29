@@ -75,3 +75,33 @@ doctor-appointment-api/
 ## 🚀 API Endpoints
 ### **1️⃣ Authentication APIs**
 #### ✅ **User Registration**
+
+**Body:**
+```json
+{
+  "fullName": "Hassan Ali Jimale",
+  "email": "Hassan@gmail.com",
+  "password": "password123",
+  "role": "patient"
+}
+
+POST /api/auth/login
+{
+  "email": "Hassan@gmail.com",
+  "password": "password123"
+}
+
+GET /api/users
+GET /api/users/:id
+PUT /api/users/:id
+
+{
+  "fullName": "Updated Name",
+  "email": "updated.email@gmial.com"
+}
+
+DELETE /api/users/:id
+
+
+
+
