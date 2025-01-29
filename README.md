@@ -102,6 +102,21 @@ PUT /api/users/:id
 
 DELETE /api/users/:id
 
+POST /api/appointments
+{
+  "doctorId": "65a3c9b8b7b44e001cb6e012",
+  "date": "2025-02-10",
+  "time": "14:00",
+  "reason": "Hubin Caafimaad"
+}
+
+GET /api/appointments
+PUT /api/appointments/:id
+{
+  "status": "approved"
+}
+DELETE /api/appointments/:id
+
 
 
 
