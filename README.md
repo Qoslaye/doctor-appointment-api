@@ -105,7 +105,7 @@ Update User
 PUT /api/users/:id
 {
   "fullName": "Updated Name",
-  "email": "updated.email@gmial.com"
+  "email": "updated.email@gmail.com"
 }
 
 ✅ Delete User
