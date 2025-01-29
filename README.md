@@ -102,6 +102,8 @@ PUT /api/users/:id
 
 DELETE /api/users/:id
 
+3️⃣ Appointment APIs
+✅ Create Appointment (Patient)
 POST /api/appointments
 {
   "doctorId": "65a3c9b8b7b44e001cb6e012",
@@ -110,12 +112,15 @@ POST /api/appointments
   "reason": "Hubin Caafimaad"
 }
 
+✅ Get All Appointments (Doctor & Patient)
 GET /api/appointments
+
+✅ Update Appointment Status (Doctor Only)
 PUT /api/appointments/:id
 {
   "status": "approved"
 }
-### ✅ Delete Appointment (Doctor/Patient)
+✅ Delete Appointment (Doctor/Patient)
 DELETE /api/appointments/:id
 ```
 
