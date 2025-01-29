@@ -44,3 +44,35 @@ doctor-appointment-api/
 | `password` | String  | Hashed password |
 | `role`    | String  | `doctor` or `patient` (default: `patient`) |
 | `createdAt` | Date  | Timestamp of creation |
+
+### **2️⃣ Appointments Collection (`appointments`)**
+| Field       | Type    | Description |
+|-------------|--------|-------------|
+| `_id`       | ObjectId | Unique Appointment ID |
+| `patientId` | ObjectId | References `users` (Patient) |
+| `doctorId`  | ObjectId | References `users` (Doctor) |
+| `date`      | String  | Appointment date |
+| `time`      | String  | Appointment time |
+| `reason`    | String  | Patient's reason for visit |
+| `status`    | String  | `pending`, `approved`, `rejected` (default: `pending`) |
+| `createdAt` | Date    | Timestamp of booking |
+
+---
+
+## 🔐 Authentication & Authorization
+- **JWT-Based Authentication**  
+  - Users must log in to receive a **JWT Token**.
+  - The token must be included in the `Authorization` header as:
+    ```
+    Authorization: Bearer <your_jwt_token>
+    ```
+- **Role-Based Access**
+  - **Patients** can book appointments.
+  - **Doctors** can approve/reject appointments.
+
+---
+
+## 🚀 API Endpoints
+### **1️⃣ Authentication APIs**
+#### ✅ **User Registration**
+
