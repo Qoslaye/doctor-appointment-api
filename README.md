@@ -139,6 +139,7 @@ DELETE /api/appointments/:id
 1️⃣ Clone the Repository
 
 git clone https://github.com/Qoslaye/doctor-appointment-api.git
+
 cd doctor-appointment-api
 
 2️⃣ Install Dependencies
