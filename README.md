@@ -137,6 +137,7 @@ DELETE /api/appointments/:id
 ### 1️⃣ Clone the Repository 
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/<Qoslaye/doctor-appointment-api.git
 cd doctor-appointment-api
 
@@ -145,6 +146,7 @@ cd doctor-appointment-api
 npm install
 
 3️⃣ Configure Environment Variables
+
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/doctor_appointment_system
 JWT_SECRET=your_jwt_secret_key
